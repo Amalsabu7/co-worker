@@ -15,7 +15,7 @@ class MapViewScreen extends StatefulWidget {
 }
 
 class _MapViewScreenState extends State<MapViewScreen> {
-  String googleAPIKey = "AIzaSyDB2Ea-AMGt90ZJCz1bd0yFOvx1Zshop4g";
+  String googleAPIKey = "AIzaSyBnbqwGq_qB6avn5I7VQmlW_hSBmdnpYas";
   LatLng fromLatLng = const LatLng(11.664079, 76.260510);
   LatLng currentCameraPosition = const LatLng(11.664079, 76.260510);
   late GoogleMapController _controller;
